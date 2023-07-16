@@ -18,13 +18,17 @@ img{
     width: 100%;
 
 }
-
-#buttons {
+#prev-button{
     position: absolute;
     top: 50%;
-    left: 50px;
-    transform: translateY(-50%);
-
+    float: left;
+    left: 10px;
+}
+#next-button{
+    position: absolute;
+    top: 50%;
+    float: right;
+    right: 10px;
 }
 
 #buttons button {
